@@ -1,0 +1,100 @@
+// `icon` referencia una clave de SERVICE_ICONS en components/icons.jsx
+export const SERVICES = [
+  {
+    id: "mecanica-general",
+    icon: "wrench",
+    title: "Mecánica General",
+    subtitle: "Mantenimiento preventivo y correctivo",
+    items: [
+      "Cambio de aceite y filtro",
+      "Revisión de correas y bandas",
+      "Cambio de bujías",
+      "Servicio de inyectores",
+      "Mantenimiento por kilometraje",
+    ],
+  },
+  {
+    id: "frenos",
+    icon: "disc",
+    title: "Frenos",
+    subtitle: "Seguridad ante todo",
+    items: [
+      "Cambio de pastillas y cauchos",
+      "Rectificado de discos",
+      "Cambio de líquido de frenos",
+      "Revisión de sistema ABS",
+    ],
+  },
+  {
+    id: "suspension-direccion",
+    icon: "target",
+    title: "Suspensión y Dirección",
+    subtitle: "Estabilidad y confort",
+    items: [
+      "Cambio de amortiguadores",
+      "Alineación y balanceo",
+      "Cambio de rótulas y terminales",
+      "Revisión de cremallera de dirección",
+    ],
+  },
+  {
+    id: "aire-acondicionado",
+    icon: "wind",
+    title: "Aire Acondicionado",
+    subtitle: "Clima ideal todo el año",
+    items: [
+      "Recarga de gas refrigerante",
+      "Cambio de compresor",
+      "Limpieza del sistema y ductos",
+      "Diagnóstico de fugas",
+    ],
+  },
+  {
+    id: "electricidad-automotriz",
+    icon: "zap",
+    title: "Electricidad Automotriz",
+    subtitle: "Diagnóstico eléctrico preciso",
+    items: [
+      "Diagnóstico de batería y alternador",
+      "Reparación de arnés",
+      "Instalación de accesorios",
+      "Cambio de fusibles y relés",
+    ],
+  },
+  {
+    id: "diagnostico-computarizado",
+    icon: "cpu",
+    title: "Diagnóstico Computarizado",
+    subtitle: "Escaneo digital de fallas",
+    items: [
+      "Escaneo de fallas (OBD2)",
+      "Borrado de códigos y testigos",
+      "Revisión de sensores",
+      "Actualización de módulos",
+    ],
+  },
+  {
+    id: "pintura-carroceria",
+    icon: "droplet",
+    title: "Pintura y Carrocería",
+    subtitle: "Acabado como de fábrica",
+    items: [
+      "Pintura completa o parcial",
+      "Reparación de golpes y abolladuras",
+      "Pulido y encerado",
+      "Enderezado de chasis",
+    ],
+  },
+  {
+    id: "transmision",
+    icon: "settings",
+    title: "Transmisión",
+    subtitle: "Manual y automática",
+    items: [
+      "Cambio de aceite de transmisión",
+      "Reparación de embrague",
+      "Diagnóstico de caja automática",
+      "Cambio de collarín y disco de clutch",
+    ],
+  },
+];
