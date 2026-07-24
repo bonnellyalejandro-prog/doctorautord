@@ -178,7 +178,7 @@ function WhatsAppGlyph({ className }) {
 // Logo oficial de WhatsApp: coloca tu propio PNG en public/whatsapp-icon.png
 // (mismo nombre) para reemplazar el ícono dibujado a mano, sin tocar ningún
 // componente. Si el archivo no existe, se usa el ícono dibujado como respaldo.
-const WHATSAPP_LOGO_SRC = "/whatsapp-icon.png";
+const WHATSAPP_LOGO_SRC = `${import.meta.env.BASE_URL}whatsapp-icon.png`;
 
 export function WhatsApp({ className }) {
   const [imageFailed, setImageFailed] = useState(false);

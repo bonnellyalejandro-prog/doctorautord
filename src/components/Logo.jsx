@@ -4,7 +4,7 @@ import { Wrench } from "./icons.jsx";
 // Logo del taller: coloca tu propio PNG en public/logo.png (mismo nombre)
 // para reemplazar la marca dibujada, sin tocar ningún componente. Si el
 // archivo no existe o falla al cargar, se usa la marca por defecto.
-const LOGO_SRC = "/logo.png";
+const LOGO_SRC = `${import.meta.env.BASE_URL}logo.png`;
 
 export default function Logo() {
   const [imageFailed, setImageFailed] = useState(false);
